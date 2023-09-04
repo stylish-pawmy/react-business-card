@@ -6,7 +6,7 @@ export function Photo()
 {
     return (
         <>
-            <img src= { PersonPhoto } />
+            <img className="person-photo" src= { PersonPhoto } />
         </> 
     )
 }

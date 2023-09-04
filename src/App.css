@@ -56,3 +56,8 @@ body > * {
   font-weight: normal;
   color: var(--dim-white-beta);
 }
+
+.person-photo {
+  aspect-ratio: 1 / 1;
+  width: 317px;
+}
