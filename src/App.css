@@ -14,29 +14,39 @@ body > * {
   font-family: "Inter", sans-serif;
 }
 
+.main-content {
+  background-color: var(--grey-beta);
+}
+
 .full-name {
   font-size: 25;
   font-weight: bold;
   text-align: center;
   vertical-align: top;
   color: white;
+  margin-bottom: 3px;
+  padding: 0;
 }
 
 .occupation, .website-link {
   font-weight: normal;
   text-align: center;
   vertical-align: top;
+  padding: 0;
 }
 
 .occupation {
   font-size: 12.8px;
   color: var(--accent-peach);
+  margin-top: 3px;
+  margin-bottom: 4.4px;
 }
 
 .website-link {
   font-size: 10.24px;
   line-height: 150%;
   color: var(--dim-white-alpha);
+  margin-top: 4.4px;
 }
 
 .details-headline, .details-body {
