@@ -6,4 +6,49 @@
   --grey-delta: #918E9B;
   --linkedin-blue: #5093E2;
   --accent-peach: #F3BF99;
+  --dim-white-alpha: #F5F5F5;
+  --dim-white-beta: #DCDCDC;
+}
+
+.full-name {
+  font-size: 25;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  color: white;
+}
+
+.occupation, .website-link {
+  font-weight: normal;
+  text-align: center;
+  vertical-align: top;
+}
+
+.occupation {
+  font-size: 12.8px;
+  color: var(--accent-peach);
+}
+
+.website-link {
+  font-size: 10.24px;
+  line-height: 150%;
+  color: var(--dim-white-alpha);
+}
+
+.details-headline, .details-body {
+  line-height: 150%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.details-headline {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--dim-white-alpha);
+}
+
+.details-body {
+  font-size: 10.24px;
+  font-weight: normal;
+  color: var(--dim-white-beta);
 }
