@@ -8,6 +8,7 @@
   --accent-peach: #F3BF99;
   --dim-white-alpha: #F5F5F5;
   --dim-white-beta: #DCDCDC;
+  --dim-white-gamma: #918E9B;
 }
 
 body > * {
@@ -141,3 +142,22 @@ body > * {
       font-weight: normal;
       color: var(--dim-white-beta);
     }
+
+
+.social-media-container {
+  background-color: var(--grey-gamma);
+  width: 100%;
+}
+
+.social-media-container > div {
+  margin: 20px 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  font-size: 25px;
+}
+
+.social-media-container > div > a {
+  color: var(--dim-white-gamma);
+}
