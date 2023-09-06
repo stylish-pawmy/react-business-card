@@ -106,3 +106,15 @@ body > * {
       background-color: var(--linkedin-blue);
       color: white;
     }
+
+.body-header {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--dim-white-alpha)
+}
+
+.body-text {
+  font-size: 10.24px;
+  font-weight: normal;
+  color: var(--dim-white-beta)
+}
