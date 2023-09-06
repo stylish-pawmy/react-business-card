@@ -91,3 +91,8 @@ button {
   background-color: white;
   color: var(--grey-gamma);
 }
+
+.linkedin-button {
+  background-color: var(--linkedin-blue);
+  color: white;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { EmailButton } from "./EmailButton.jsx";
 import "../App.css";
+import LinkedinButton from "./LinkedinButton.jsx";
 
 export function Main() {
     return (
@@ -9,6 +10,7 @@ export function Main() {
             <h4 className="occupation">Frontend Developer</h4>
             <p className="website-link">laurasmith.website</p>
             <EmailButton />
+            <LinkedinButton />
         </div>
     );
 }
