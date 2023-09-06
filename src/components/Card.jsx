@@ -5,10 +5,10 @@ import { Main } from "./Main.jsx";
 
 export function Card() {
     return (
-        <>
+        <div className="card">
             <Photo />
             <Main />
-        </>
+        </div>
     );
 }
 
